@@ -1,0 +1,94 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+  font-family: 'verdana'
+
+}
+  
+  form {
+    display: block;
+    width: 100%;
+    padding: 2em;
+  }
+  
+  h2 {
+    text-align: center;
+    width: 100%;
+    font-family: 'verdana';
+    font-size: 1.35em;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    padding: .75em 1em .75em 1.5em;
+    margin: 0;
+    font-weight: 200;
+  }
+
+  .loginBtn {
+    --c: rgb(9, 7, 1);
+    background: white;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+    transition: 0.5s;
+
+
+  }
+
+  input::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .loginBtn:hover {
+    background:grey;
+  }
+  
+  input {
+
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: .5em 0;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1.25em;
+    color: #757575;
+
+  }
+  
+
+    
+  
+  .forgot {
+    position: relative;
+    text-decoration: none;
+    font-size: .75em;
+    padding-right: 5px;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
